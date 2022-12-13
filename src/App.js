@@ -38,27 +38,4 @@ function App () {
     );
 }
 
-// class App extends React.Component {
-//   constructor(props) {
-//     super(props);
-//     this.state = {
-//       showClock: true
-//     };
-//   }
-  
-//   toggleClock = () => this.setState({ showClock: !this.state.showClock });
-  
-//   render () {
-//     return (
-//       <div className="widgets">
-//         <Folder folders={folders} />
-//         <Weather />
-//         <ClockToggle toggleClock={this.toggleClock} />
-//         {this.state.showClock && <Clock />}
-//         <AutoComplete names={names} />
-//       </div>
-//     );
-//   }
-// }
-
 export default App;
