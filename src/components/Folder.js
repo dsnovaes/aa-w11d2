@@ -34,7 +34,7 @@ function Folder (props) {
 
   const folder = props.folders[currentTab];
   const titles = props.folders.map((folder) => folder.title);
-  const selectTab = num => setCurrentTab( num );
+  const selectTab = num => setCurrentTab(num);
 
   return (
     <section className="tabs-section">
